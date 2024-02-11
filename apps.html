@@ -10,7 +10,7 @@
  
         function generador() {
  
-            var num = document.getElementById("ea").value;
+            var num = document.getElementById("fabiola").value;
             ventas = `USE punto_venta;<br>
             TRUNCATE ventas_detalles;<br>
             DELETE FROM ventas;<br>
@@ -96,7 +96,7 @@
  
 </head>
 <body>
-    <input type="number" name="numero" id="ea" min = 0 value = 10>
+    <input type="number" name="numero" id="fabiola" min = 0 value = 10>
     <input type="button" value="Generar Ventas" onclick="generador()">
     <br>
     <input type="button" value="Generar SQL" onclick="generarSQL()">
